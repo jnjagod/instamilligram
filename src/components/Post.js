@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-export default class Add extends Component {
+export default class Post extends Component {
   state = {
     title: '',
     imgUrl: '',
