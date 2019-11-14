@@ -9,12 +9,20 @@ export default class Dash extends Component {
     toggleAdd: false
   }
 
+  toggle = () => {
+    this.setState((prevState) => {
+      return {
+        toggleAdd: !prevState.toggleAdd
+      }
+    })
+  }
+
   render() {
     return (
       <div>
-        Dash.js
-        <Add />
+        <button onClick={this.toggle}>Create a Post</button>
         <Post />
+        {this.state.toggleAdd && <Add toggle={this.toggle} />}
       </div>
     )
   }

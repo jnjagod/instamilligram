@@ -1,0 +1,28 @@
+.add {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 500px;
+  margin: 0 auto;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  background: #fcc17398;
+  border-radius: 7px;
+  padding: 1rem;
+}
+.add textarea {
+  resize: none
+}
+.add .img-container {
+  width: 90%;
+  height: 270px;
+  background: oldlace;
+}
+.add i {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
