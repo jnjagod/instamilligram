@@ -10,3 +10,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+header .logo {
+  margin: 0 auto;
+}
